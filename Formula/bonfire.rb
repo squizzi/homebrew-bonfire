@@ -3,11 +3,11 @@ class Bonfire < Formula
 
   desc "Orchestrates ephemeral environments for testing cloud.redhat.com applications"
   homepage "https://github.com/RedHatInsights/bonfire"
-  url "https://files.pythonhosted.org/packages/d1/67/ee102be6140c59de3cb097c30514c6b6383a02ecc716c55e7d6fa41c2830/crc_bonfire-5.11.0.tar.gz"
-  sha256 "68a4116c50b9080d99813eb2d0762cfd967b25324c8694997a28483eb8bd4c9b"
+  url "https://files.pythonhosted.org/packages/82/a4/6098372d0a1c4f4c668f1be8e0f9269cd61e77479d2874a8310a348b4cc0/crc_bonfire-6.14.0.tar.gz"
+  sha256 "fb5e4df6ca2bfb4b8ce1de4cee07de1d2db17bfebb6aae762fb61958f5da457e"
   license "Apache-2.0"
 
-  depends_on "python@3.9"
+  depends_on "python@3.14"
 
   resource "anyio" do
     url "https://files.pythonhosted.org/packages/9f/09/45b9b7a6d4e45c6bcb5bf61d19e3ab87df68e0601fa8c5293de3542546cc/anyio-4.6.2.post1.tar.gz"
@@ -15,8 +15,8 @@ class Bonfire < Formula
   end
 
   resource "anytree" do
-    url "https://files.pythonhosted.org/packages/f9/44/2dd9c5d0c3befe899738b930aa056e003b1441bfbf34aab8fce90b2b7dea/anytree-2.12.1.tar.gz"
-    sha256 "244def434ccf31b668ed282954e5d315b4e066c4940b94aff4a7962d85947830"
+    url "https://files.pythonhosted.org/packages/bc/a8/eb55fab589c56f9b6be2b3fd6997aa04bb6f3da93b01154ce6fc8e799db2/anytree-2.13.0.tar.gz"
+    sha256 "c9d3aa6825fdd06af7ebb05b4ef291d2db63e62bb1f9b7d9b71354be9d362714"
   end
 
   resource "app-common-python" do
