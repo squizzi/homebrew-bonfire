@@ -45,8 +45,8 @@ class Bonfire < Formula
   end
 
   resource "chardet" do
-    url "https://files.pythonhosted.org/packages/fc/bb/a5768c230f9ddb03acc9ef3f0d4a3cf93462473795d18e9535498c8f929d/chardet-3.0.4.tar.gz"
-    sha256 "84ab92ed1c4d4f16916e05906b6b75a6c0fb5db821cc65e70cbd64a3e2a5eaae"
+    url "https://files.pythonhosted.org/packages/19/b6/9df434a8eeba2e6628c465a1dfa31034228ef79b26f76f46278f4ef7e49d/chardet-7.4.3.tar.gz"
+    sha256 "cc1d4eb92a4ec1c2df3b490836ffa46922e599d34ce0bb75cf41fd2bf6303d56"
   end
 
   resource "charset-normalizer" do
@@ -89,6 +89,16 @@ class Bonfire < Formula
     sha256 "12f65c9b470abda6dc35cf8e63cc574b1c52b11df2c86030af0ac09b01b13ea9"
   end
 
+  resource "jinja2" do
+    url "https://files.pythonhosted.org/packages/df/bf/f7da0350254c0ed7c72f3e33cef02e048281fec7ecec5f032d4aac52226b/jinja2-3.1.6.tar.gz"
+    sha256 "0137fb05990d35f1275a587e9aee6d56da821fc83491a0fb838183be43f66d6d"
+  end
+
+  resource "markupsafe" do
+    url "https://files.pythonhosted.org/packages/7e/99/7690b6d4034fffd95959cbe0c02de8deb3098cc577c67bb6a24fe5d7caa7/markupsafe-3.0.3.tar.gz"
+    sha256 "722695808f4b6457b320fdc131280796bdceb04ab50fe1795cd540799ebe1698"
+  end
+
   resource "junitparser" do
     url "https://files.pythonhosted.org/packages/57/88/6a268028a297751ed73be8e291f12aa727caf22adbc218e8dfbafcc974af/junitparser-3.2.0.tar.gz"
     sha256 "b05e89c27e7b74b3c563a078d6e055d95cf397444f8f689b0ca616ebda0b3c65"
@@ -110,8 +120,8 @@ class Bonfire < Formula
   end
 
   resource "ocviapy" do
-    url "https://files.pythonhosted.org/packages/4f/02/5628b61a460445392802fbe24bb388b52e8610fcc4b2bf405012b8fd3eb1/ocviapy-1.2.3.tar.gz"
-    sha256 "2787659707683e8166087783b96786204c3f45961a5dc9080a7a41b4a8e2a927"
+    url "https://files.pythonhosted.org/packages/5e/8b/7591a56c3c30fc42fb144ec378814f6d913c653254bcc3ba3ecb4cc11923/ocviapy-1.7.0.tar.gz"
+    sha256 "f884237963f0604c11d93a1ff092e495d807c33ea92976b4fd1c79f27e541ac3"
   end
 
   resource "packaging" do
@@ -155,8 +165,8 @@ class Bonfire < Formula
   end
 
   resource "requests" do
-    url "https://files.pythonhosted.org/packages/63/70/2bf7780ad2d390a8d301ad0b550f1581eadbd9a20f896afe06353c2a2913/requests-2.32.3.tar.gz"
-    sha256 "55365417734eb18255590a9ff9eb97e9e1da868d4ccd6402399eaf68af20a760"
+    url "https://files.pythonhosted.org/packages/ac/c3/e2a2b89f2d3e2179abd6d00ebd70bff6273f37fb3e0cc209f48b39d00cbf/requests-2.34.2.tar.gz"
+    sha256 "f288924cae4e29463698d6d60bc6a4da69c89185ad1e0bcc4104f584e960b9ed"
   end
 
   resource "requests-oauthlib" do
@@ -187,6 +197,11 @@ class Bonfire < Formula
   resource "sniffio" do
     url "https://files.pythonhosted.org/packages/a2/87/a6771e1546d97e7e041b6ae58d80074f81b7d5121207425c964ddf5cfdbd/sniffio-1.3.1.tar.gz"
     sha256 "f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc"
+  end
+
+  resource "truststore" do
+    url "https://files.pythonhosted.org/packages/53/a3/1585216310e344e8102c22482f6060c7a6ea0322b63e026372e6dcefcfd6/truststore-0.10.4.tar.gz"
+    sha256 "9d91bd436463ad5e4ee4aba766628dd6cd7010cf3e2461756b3303710eebc301"
   end
 
   resource "tabulate" do
